@@ -4,23 +4,98 @@
     </head>
 
     <body>
-        <h1>Noções básicas de HTML</h1>
+        
+        <h1><font color="orange" face="Lilita One">Noções básicas de HTML</font></h1>
         <hr/>
         <h2>Índice de conteúdos</h2>
 
         <ul>
-            <li>Tags de Título</li>
-            <li>Tags de Texto</li>
-            <li>Listas</li>
-            <li>Efeitos em Textos</li>
-            <li>Citações</li>
-            <li>Alterando fontes</li>
-            <li>Abreviações</li>
-            <li>Comando del</li>
-        </ul>
+            <li><a href="#tagstitulo">Tags de Titulo</a></li>
+            <li><a href="#tagstexto">Tags de Texto</a></li>
+            <li><a href="#listas">Listas</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#linhas">Linhas</a></li>
+            <li><a href="#citacoes">Citações</a></li>
+            <li><a href="#abreviacoes">Abreviações</a></li>
+            <li><a href="#fontes">Fontes</a></li>
+         </ul>
 
-        <h3>Tags de Título</h3>
-        <p>"As tags &lt;h1&gt; até &lt;h6&gt; são" </h6></h1></p>
+        <br>
+        <h3 id="tagstitulo">Tags de Título</h3>
+        <p>As tags <strong>&lt;h1&gt;</strong> até <strong>&lt;h6&gt;</strong> são tags utilizadas para indicar títulos, sendo a tag <strong>h1</strong> a de maior relevancia (usualmente chamada de título) e a tag <strong>h6</strong> a de menor relevancia. Auxiliam na navegabilidde, bem como no ranqueamento dos sites nos mecanismos de busca </h6></h1></p>
+
+        <br>
+            <h3 id="tagstexto">Tags de Texto</h3>
+            <p>Possuem a função de organizar, destacar e marcar alguns pontos do texto, facilitando sua leitura. As tags mais usadas são:</p>
+
+
+        <ul>
+            <li><strong>&lt;p&gt;</strong></li>
+                <p>Usada para indicar um parágrafo de texto</p>
+            <li><strong>&lt;mark&gt;</strong></li>
+                <p>Usada para <mark>destacar um aspecto</mark> do texto, de forma análoga a um marca texto manual</p>
+            <li><strong>&lt;small&gt;</strong></li>
+                <p>Usada para deixar <small>o texto menor</small></p>
+            <li><strong>&lt;i&gt;</strong></li>
+                <p><i>Usada para deixar o texto em itálico</i></p>
+            <li><strong>&lt;u&gt;</strong></li>
+                <p><u>Usada para deixar o texto em sublinhado</u></p>
+            <li><strong>&lt;u&gt;</strong></li>
+                <p><strong>Usada para deixar o texto em negrito</strong></p>
+            <li><strong>&lt;sub&gt;</strong></li>
+             <p>Usada para deixar <sub>o texto subscrito</sub></p>
+            <li><strong>&lt;sup&gt;</strong></li>
+                <p>Usada para deixar <sup>o texto sobrescrito</sup></p>
+            <li><strong>&lt;del&gt;</strong></li>
+                <p>Usada para deixar <del>o texto tachado</del></p>
+        </ul>
+        <br>
+        <h3 id="listas">Listas</h3>
+        <p>As tags de listas servem para listar itens. Elas são representadas por <strong>&lt;ol&gt;</strong> quando se tratam de listas ordenadas ou <strong>&lt;ul&gt;</strong> quando se tratam de listas não ordenadas Os itens da lista são identificados pela tag <strong>&lt;li&gt;</strong>.</p>
+            <p>Exemplo de lista ordenada</p>
+            <ol>
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+                <li>...</li>
+            </ol>
+
+            <p>Exemplo de lista não-ordenada</p>
+            <ul>
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+                <li>...</li>
+            </ul>
+
+            <br>
+            <h3 id="links">Links</h3>
+            <p>Os links servem para conectar páginas ou partes de um mesmo site ou conectar com um site externo. Os mesmos podem ser feitos por meio da tag <strong>&lt;a&gt;</strong> indicando qual o destino do link, por exemplo "&lt;a href="endereçodedestino.com.br"&gt; palavra clicável &lt;/a&gt;"".</p>
+
+            <br>
+            <h3 id="linhas">Linhas</h3>
+            <p>Muitas vezes pode ser útil insierir uma linha página visando melhorar a visualçização da mesma. O comando para inserir uma linha é <strong>&lt;hr&gt;</strong></p>
+
+            <br>
+            <h3 id="citacoes">Citações</h3>
+            <p>Quando falamos de alguém, utilizando suas palavras (Ipsis Litteris), podemos fazzer uso do recurso <strong>&lt;blockquote&gt;</strong> para destacar a citação. Abaixo, temos uma citação de Sêneca:</p>
+            <blockquote cite="Seneca">
+                <p>"Enquanto esperamos pela vida, a vida passa."<sub> Sêneca</sub></p>
+            </blockquote>
+
+            <br>
+            <h3 id="abreviacoes">Abreviações</h3>
+            <p>É possivel fazer abreviações de nomes longos com o comando <strong>&lt;abbr&gt;</strong>. Desta forma ao passar o mouse sob uma abreviação, aparece o nome completo. Um exemplo deste comando é <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+
+
+            <br>
+            <h3 id="fontes">Fontes</h3>
+            <p>Apesar de ser um comando não mais presente no HTML5, o comando <strong>&lt;font&gt;</strong> permitia mudar a fonte utilizada, bem como tamanho e cor de um texto. Hoje isto é feito via CSS.
+            <p><font color="orange" face="Calibri">Por exemplo, aqui temos um texto com a fonte calibri e na cor laranja.</font></p>
+
+            <br>
+            <br>
+            <br>
 
     </body>
 
